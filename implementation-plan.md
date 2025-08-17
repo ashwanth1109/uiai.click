@@ -27,35 +27,13 @@
 └── scripts/           # Deployment and utility scripts
 ```
 
-## Implementation Tasks
-
-### Phase 1: Project Setup
-1. Set up project structure with monorepo layout (frontend/, backend/, shared/)
-2. Initialize Next.js 14+ frontend with TypeScript, App Router, Tailwind CSS
-3. Create minimal frontend with Hello World h1 element
-4. Set up AWS SAM template with AppSync GraphQL API configuration
-5. Create Lambda function for health check endpoint
-6. Configure DynamoDB table with proper indexing strategy
-
-### Phase 2: Development Experience
-7. Set up shared TypeScript types package for API contracts
-8. Configure ESLint, Prettier, and pre-commit hooks for code quality
-9. Set up environment configuration and secrets management
-10. Create deployment scripts and CI/CD pipeline configuration
-
-## Initial Minimal Implementation
-
-- **Frontend**: Single page with "Hello World!" h1
-- **Backend**: AppSync schema with health check query
-- **Infrastructure**: Basic SAM template with minimal resources
-
 ## Technology Stack
 
 ### Frontend
 - **Framework**: Next.js 14+ with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Package Manager**: npm/yarn
+- **Package Manager**: pnpm
 
 ### Backend
 - **API Gateway**: AWS AppSync (GraphQL)
