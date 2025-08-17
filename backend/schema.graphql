@@ -1,0 +1,17 @@
+type Query {
+  health: String
+}
+
+type Mutation {
+  placeholder: String
+}
+
+type Subscription {
+  placeholder: String
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
