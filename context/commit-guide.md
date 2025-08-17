@@ -3,7 +3,7 @@
 ## Standard Commit Process
 
 1. **Check Status**: Always run `git status` and `git diff` to see changes
-2. **Stage Changes**: Use `git add .` or specific files as needed
+2. **Stage Changes**: Always use `git add .` since we will be building things in logically coherent units
 3. **Commit Message Format**:
    ```bash
    git commit -m "$(cat <<'EOF'
