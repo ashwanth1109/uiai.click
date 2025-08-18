@@ -1,4 +1,3 @@
-# Personal Website Implementation Plan
 
 ## Architecture Overview
 
